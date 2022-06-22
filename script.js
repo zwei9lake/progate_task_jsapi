@@ -1,8 +1,8 @@
 document.querySelector("#search").addEventListener("click", getAnime);
 
-function lowerCaseName(string) {
-  return string.toLowerCase();
-}
+// function lowerCaseName(string) {
+//   return string.toLowerCase();
+// }
 
 function getAnime(e) {
   const name = document.querySelector("#searchbar").value;
@@ -31,7 +31,9 @@ function getAnime(e) {
     })
     .catch((err) => {
       document.querySelector(".detailBox").innerHTML = `
-      <h4>Data tidak ditemukan 😞</h4>
+      <div class="alert alert-warning my-4 text-center" role="alert">
+          Data tidak ditemukan T_T
+      </div>
       `;
       console.log("Data tidak ditemukan", err);
     });
