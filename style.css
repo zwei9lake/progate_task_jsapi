@@ -1,0 +1,30 @@
+.jumbotron {
+  padding: 100px;
+  background-image: url("image/background.jpg");
+  color: white;
+  background-size: auto;
+}
+.jumbotron h1 {
+  font-size: 50px;
+}
+.jumbotron p {
+  width: 700px;
+  margin: 10px 10px 10px 0px;
+  padding: 10px 30px 10px 0px;
+}
+p {
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
+  text-align: justify;
+}
+.small {
+  font-variant: small-caps;
+  line-height: 10%;
+}
+nav a {
+  transition-duration: 50ms;
+}
+nav a:hover {
+  font-size: 18px;
+  font-weight: bold;
+}
